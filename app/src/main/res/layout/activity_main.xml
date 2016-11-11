@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.theraymondshop.MainActivity">
+
+    <ImageView
+        android:id="@+id/shopView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/shop" />
+
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/raymondView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/logoView"
+        android:src="@drawable/raymond" />
+
+    <ImageView
+        android:id="@+id/parkavenueView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/raymondView"
+        android:src="@drawable/parkavenue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Fabrics\n\n• Readymade\n\n• Accessories\n\n• Tailoring"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The RAYMOND SHOPS:\n•Manoj Towers,Rajarampuri, Opp: Shahaji Law College, Kolhapur, Maharashtra 416008, India | +91-231 252 0426 | 9AM - 8PM | Monday closed\n• Shop No. 8-9, Central Wing, Shahu Cloth Market, Laxmipuri, Kolhapur, Maharashtra 416002, India. +91 231 264 4078 | 9AM - 8PM | Monday closed"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:textStyle="normal"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
